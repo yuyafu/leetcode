@@ -7,3 +7,9 @@
 //
 
 #include "absParam.hpp"
+
+int absParam(int val) {
+    
+    return val >= 0 ? val : -val;
+}
+

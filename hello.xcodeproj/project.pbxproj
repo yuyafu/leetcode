@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FA5EC2681E8C8A47009AE563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5EC2671E8C8A47009AE563 /* main.cpp */; };
+		FA5EC2781E8E0C4F009AE563 /* absParam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5EC2761E8E0C4F009AE563 /* absParam.cpp */; };
+		FA5EC27D1E8E2A8D009AE563 /* stringOwn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5EC27B1E8E2A8D009AE563 /* stringOwn.cpp */; };
+		FA5EC2811E8E8537009AE563 /* twoNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5EC27F1E8E8537009AE563 /* twoNum.cpp */; };
+		FA5EC2831E8F9024009AE563 /* addTwoNums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5EC2821E8F9024009AE563 /* addTwoNums.cpp */; };
+		FAA24C221E8FADBE000E8929 /* lengthOfLongestSubstr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C211E8FADBE000E8929 /* lengthOfLongestSubstr.cpp */; };
+		FAA24C241E8FE1A5000E8929 /* findMedianSortArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C231E8FE1A5000E8929 /* findMedianSortArrays.cpp */; };
+		FAA24C271E90DE53000E8929 /* longestPalinerome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C251E90DE53000E8929 /* longestPalinerome.cpp */; };
+		FAA24C291E90F226000E8929 /* convert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C281E90F226000E8929 /* convert.cpp */; };
+		FAA24C2B1E910C90000E8929 /* reInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C2A1E910C90000E8929 /* reInteger.cpp */; };
+		FAA24C2D1E91101D000E8929 /* myAtoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C2C1E91101D000E8929 /* myAtoi.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,19 @@
 /* Begin PBXFileReference section */
 		FA5EC2641E8C8A47009AE563 /* hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5EC2671E8C8A47009AE563 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA5EC2761E8E0C4F009AE563 /* absParam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = absParam.cpp; sourceTree = "<group>"; };
+		FA5EC2771E8E0C4F009AE563 /* absParam.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = absParam.hpp; sourceTree = "<group>"; };
+		FA5EC27A1E8E296C009AE563 /* stringOwn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stringOwn.h; sourceTree = "<group>"; };
+		FA5EC27B1E8E2A8D009AE563 /* stringOwn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringOwn.cpp; sourceTree = "<group>"; };
+		FA5EC27E1E8E84DB009AE563 /* leetcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leetcode.h; sourceTree = "<group>"; };
+		FA5EC27F1E8E8537009AE563 /* twoNum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = twoNum.cpp; sourceTree = "<group>"; };
+		FA5EC2821E8F9024009AE563 /* addTwoNums.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addTwoNums.cpp; sourceTree = "<group>"; };
+		FAA24C211E8FADBE000E8929 /* lengthOfLongestSubstr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lengthOfLongestSubstr.cpp; sourceTree = "<group>"; };
+		FAA24C231E8FE1A5000E8929 /* findMedianSortArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findMedianSortArrays.cpp; sourceTree = "<group>"; };
+		FAA24C251E90DE53000E8929 /* longestPalinerome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestPalinerome.cpp; sourceTree = "<group>"; };
+		FAA24C281E90F226000E8929 /* convert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convert.cpp; sourceTree = "<group>"; };
+		FAA24C2A1E910C90000E8929 /* reInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reInteger.cpp; sourceTree = "<group>"; };
+		FAA24C2C1E91101D000E8929 /* myAtoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myAtoi.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +80,38 @@
 		FA5EC2661E8C8A47009AE563 /* hello */ = {
 			isa = PBXGroup;
 			children = (
-				FA5EC2671E8C8A47009AE563 /* main.cpp */,
+				FA5EC2791E8E11A1009AE563 /* header */,
+				FA5EC2751E8E0BA9009AE563 /* src */,
 			);
 			path = hello;
+			sourceTree = "<group>";
+		};
+		FA5EC2751E8E0BA9009AE563 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FAA24C2A1E910C90000E8929 /* reInteger.cpp */,
+				FA5EC2671E8C8A47009AE563 /* main.cpp */,
+				FA5EC2761E8E0C4F009AE563 /* absParam.cpp */,
+				FA5EC27B1E8E2A8D009AE563 /* stringOwn.cpp */,
+				FA5EC27F1E8E8537009AE563 /* twoNum.cpp */,
+				FA5EC2821E8F9024009AE563 /* addTwoNums.cpp */,
+				FAA24C211E8FADBE000E8929 /* lengthOfLongestSubstr.cpp */,
+				FAA24C231E8FE1A5000E8929 /* findMedianSortArrays.cpp */,
+				FAA24C251E90DE53000E8929 /* longestPalinerome.cpp */,
+				FAA24C281E90F226000E8929 /* convert.cpp */,
+				FAA24C2C1E91101D000E8929 /* myAtoi.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		FA5EC2791E8E11A1009AE563 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EC2771E8E0C4F009AE563 /* absParam.hpp */,
+				FA5EC27A1E8E296C009AE563 /* stringOwn.h */,
+				FA5EC27E1E8E84DB009AE563 /* leetcode.h */,
+			);
+			name = header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5EC2781E8E0C4F009AE563 /* absParam.cpp in Sources */,
+				FA5EC2831E8F9024009AE563 /* addTwoNums.cpp in Sources */,
+				FAA24C221E8FADBE000E8929 /* lengthOfLongestSubstr.cpp in Sources */,
+				FAA24C2D1E91101D000E8929 /* myAtoi.cpp in Sources */,
+				FAA24C2B1E910C90000E8929 /* reInteger.cpp in Sources */,
+				FAA24C291E90F226000E8929 /* convert.cpp in Sources */,
+				FA5EC2811E8E8537009AE563 /* twoNum.cpp in Sources */,
+				FAA24C241E8FE1A5000E8929 /* findMedianSortArrays.cpp in Sources */,
 				FA5EC2681E8C8A47009AE563 /* main.cpp in Sources */,
+				FAA24C271E90DE53000E8929 /* longestPalinerome.cpp in Sources */,
+				FA5EC27D1E8E2A8D009AE563 /* stringOwn.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +299,7 @@
 				FA5EC26D1E8C8A47009AE563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

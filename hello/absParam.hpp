@@ -10,5 +10,6 @@
 #define absParam_hpp
 
 #include <stdio.h>
+int absParam(int);
 
 #endif /* absParam_hpp */
