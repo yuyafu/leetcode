@@ -51,7 +51,8 @@ int main(int argc, const char * argv[]) {
 //    int res = reInteger(123);
 //    printf("nnnn%d\n", res);
     
-    int res = myAtoi(" cc -123");
-    printf("nnnn%d\n", res);
+    //int res = myAtoi(" cc -123");
+    int num = aRevertB(10, 1);
+    printf("nnnn\n%d ", num);
     return 0;
 }

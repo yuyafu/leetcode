@@ -18,6 +18,8 @@
 		FAA24C291E90F226000E8929 /* convert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C281E90F226000E8929 /* convert.cpp */; };
 		FAA24C2B1E910C90000E8929 /* reInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C2A1E910C90000E8929 /* reInteger.cpp */; };
 		FAA24C2D1E91101D000E8929 /* myAtoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C2C1E91101D000E8929 /* myAtoi.cpp */; };
+		FAA24C2F1E911ACC000E8929 /* isPalindInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C2E1E911ACC000E8929 /* isPalindInt.cpp */; };
+		FAA24C311E926D53000E8929 /* count.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA24C301E926D53000E8929 /* count.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +50,8 @@
 		FAA24C281E90F226000E8929 /* convert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convert.cpp; sourceTree = "<group>"; };
 		FAA24C2A1E910C90000E8929 /* reInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reInteger.cpp; sourceTree = "<group>"; };
 		FAA24C2C1E91101D000E8929 /* myAtoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myAtoi.cpp; sourceTree = "<group>"; };
+		FAA24C2E1E911ACC000E8929 /* isPalindInt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isPalindInt.cpp; sourceTree = "<group>"; };
+		FAA24C301E926D53000E8929 /* count.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = count.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				FAA24C251E90DE53000E8929 /* longestPalinerome.cpp */,
 				FAA24C281E90F226000E8929 /* convert.cpp */,
 				FAA24C2C1E91101D000E8929 /* myAtoi.cpp */,
+				FAA24C2E1E911ACC000E8929 /* isPalindInt.cpp */,
+				FAA24C301E926D53000E8929 /* count.cpp */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -177,10 +183,12 @@
 				FAA24C2B1E910C90000E8929 /* reInteger.cpp in Sources */,
 				FAA24C291E90F226000E8929 /* convert.cpp in Sources */,
 				FA5EC2811E8E8537009AE563 /* twoNum.cpp in Sources */,
+				FAA24C2F1E911ACC000E8929 /* isPalindInt.cpp in Sources */,
 				FAA24C241E8FE1A5000E8929 /* findMedianSortArrays.cpp in Sources */,
 				FA5EC2681E8C8A47009AE563 /* main.cpp in Sources */,
 				FAA24C271E90DE53000E8929 /* longestPalinerome.cpp in Sources */,
 				FA5EC27D1E8E2A8D009AE563 /* stringOwn.cpp in Sources */,
+				FAA24C311E926D53000E8929 /* count.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

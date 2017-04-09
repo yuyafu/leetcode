@@ -10,6 +10,8 @@ using namespace std;
 #ifndef leetcode_h
 #define leetcode_h
 
+typedef unsigned char BYTE;
+
 extern vector<int> twoSum(vector<int> &nums, const int target);
 
 struct ListNode {
@@ -29,4 +31,6 @@ extern string convert(string str, int nrows);
 
 extern int reInteger(int num);
 extern int myAtoi(string str);
+extern bool isPalindInt(int x);
+extern int aRevertB(BYTE a, BYTE b);
 #endif /* leetcode_h */
